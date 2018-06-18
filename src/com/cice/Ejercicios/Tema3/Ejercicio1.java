@@ -1,4 +1,4 @@
-package com.cice.Ejercicio1.Tema3;
+package com.cice.Ejercicios.Tema3;
 
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 

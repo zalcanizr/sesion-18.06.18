@@ -28,10 +28,36 @@ public class Main {
     ClaseEstatica estatica2 = new ClaseEstatica();
 
     //pinto el valor de la variable estatica del nuevo objeto
-        System.out.println(estatica2.numeroEstatico);
+    System.out.println(estatica2.numeroEstatico);
 
 
+     String cadena ="Esto es una cadena con muchas vocales"; //14 vocales
+
+     int numeroVocales=0;
+
+     for (int i=0; cadena.length();i++){
+
+            switch (cadena.toLowerCase().charAt(i)){
+
+             case 'a':
+             case 'e':
+             case 'i':
+             case 'o':
+             case 'u':
+                    //si pasa por aqui es vocal
+                    numeroVocales++;
+                    break;
+              default:
+                    //si pasa por aqui es consonante
+                    continue;
+            }
+     }
+
+        System.out.println("El numero de vocales es: "+ numeroVocales);
 
     }
+
+
+
 
 }
