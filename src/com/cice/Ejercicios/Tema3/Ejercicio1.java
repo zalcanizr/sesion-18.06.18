@@ -2,6 +2,8 @@ package com.cice.Ejercicios.Tema3;
 
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 
+import java.util.Arrays;
+
 public class Ejercicio1 {
 
 
@@ -21,7 +23,13 @@ public class Ejercicio1 {
 
         }
 
-        System.out.println("La cadena de mayor longitug tiene: " + maximo + "Posiciones y es: " + aux);
+        System.out.println("La cadena de mayor longitug tiene: " + maximo + " posiciones y es: " + aux);
+
+
+        String cadena="esto.es.una.cadena.grande";
+        String[] array=cadena.split("\\.");
+
+        Arrays.stream(array).forEach(p-> System.out.println(p));
 
     }
 }
