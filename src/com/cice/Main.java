@@ -35,7 +35,7 @@ public class Main {
 
      int numeroVocales=0;
 
-     for (int i=0; cadena.length();i++){
+     for (int i=0; i<cadena.length();i++){
 
             switch (cadena.toLowerCase().charAt(i)){
 

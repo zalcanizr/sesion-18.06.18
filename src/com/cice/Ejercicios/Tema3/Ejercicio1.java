@@ -11,15 +11,17 @@ public class Ejercicio1 {
         String[] arrayStrings = {"hola que tal", "quiero ver el maximo", "hasta lluego", "probando"};
 
         int maximo = 0;
+        String aux="";
 
-        for (int i = 0; i < arrayStrings.length(); i++) {
+        for (int i = 0; i < arrayStrings.length; i++) {
 
-            if (maximo < arrayStrings[i].length()) then
-
+            if (maximo < arrayStrings[i].length())
+                    aux=arrayStrings[i];
                     maximo = arrayStrings[i].length();
+
         }
 
-        System.out.println("La cadena de mayor longitug tiene: " + maximo + "Posiciones");
+        System.out.println("La cadena de mayor longitug tiene: " + maximo + "Posiciones y es: " + aux);
 
     }
 }
