@@ -1,6 +1,6 @@
 package com.cice.Ejercicios.Tema3;
 
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+
 
 import java.util.Arrays;
 
@@ -14,6 +14,7 @@ public class Ejercicio1 {
 
         int maximo = 0;
         String aux="";
+
 
         for (int i = 0; i < arrayStrings.length; i++) {
 
