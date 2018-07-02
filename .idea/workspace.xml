@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dcad683-8a0f-4f6e-8a0a-7ce4d7fac15a" name="Default" comment="sesion lunes 02.07">
-      <change afterPath="$PROJECT_DIR$/src/com/cice/claves/ColeccionesBasadasEnClaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cice/colas/Colas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cice/conjuntos/Conjuntos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cice/colas/Colas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cice/colas/Colas.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColeccionesBasadasEnClaves.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ColeccionesBasadasEnClaves.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cice/claves/ColeccionesBasadasEnClaves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
+            <state relative-caret-position="-173">
               <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Colas.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Colas.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cice/colas/Colas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="112">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -122,8 +119,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
-    <option name="y" value="266" />
+    <option name="x" value="82" />
+    <option name="y" value="198" />
     <option name="width" value="1165" />
     <option name="height" value="600" />
   </component>
@@ -323,7 +320,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="134" width="1165" height="600" extended-state="0" />
+    <frame x="69" y="376" width="1165" height="600" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -511,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cice/colas/Colas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cice/conjuntos/Conjuntos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
@@ -530,11 +520,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cice/claves/ColeccionesBasadasEnClaves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
+        <state relative-caret-position="-173">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cice/colas/Colas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
         </state>
       </provider>
     </entry>

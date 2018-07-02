@@ -16,9 +16,9 @@ public class Colas {
 
         for (String s:cola){
 
-            System.out.println(s);
+            System.out.println(s.poll());
         }
-        //NO FUNCIONA BIEN LA ORDENACION
+        //NO FUNCIONA BIEN LA ORDENACION...solo con el poll
         //vemos que no los muestra ordenados por orden alfabetico
 
         //probamos a hacerlo de integer
@@ -32,9 +32,9 @@ public class Colas {
         enteros.add(42);
         enteros.add(7);
 
-        for (Integer entero:enteros){
+        for (int i=0;enteros.size()>i;) {
 
-            System.out.println(entero);
+            System.out.println(enteros.poll());
         }
 
 
